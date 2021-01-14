@@ -24,16 +24,16 @@ export default function Produtos() {
                  <ListGroup.Item as="li" active action onclick="exibirTodos()"  variant="success">
                      Todas as marcas (12)
                  </ListGroup.Item>
-                 <ListGroup.Item action onclick="filtrar('televisao')" variant="success">
+                 <ListGroup.Item action onclick="filtrar('Motorola')" variant="success">
                      Motorola (5)
                 </ListGroup.Item>
-                 <ListGroup.Item action onclick="filtrar('celular')" variant="success">
+                 <ListGroup.Item action onclick="filtrar('Nokia')" variant="success">
                      Nokia (3)
                  </ListGroup.Item>
-                 <ListGroup.Item action onclick="filtrar('maquinaDeLavar')" variant="success">
+                 <ListGroup.Item action onclick="filtrar('SonyEricsson')" variant="success">
                      SonyEricsson (3)
                  </ListGroup.Item>
-                 <ListGroup.Item action onclick="filtrar('geladeira')" variant="success">
+                 <ListGroup.Item action onclick="filtrar('Siemens')" variant="success">
                     Siemens (1)
                  </ListGroup.Item>
              </ListGroup>
